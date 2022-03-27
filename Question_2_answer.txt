@@ -1,0 +1,19 @@
+Question 2
+The equation of the linear regression is given by
+ y= b0 + b1x1 + b2x2 + b3(x1*x2)
+         where y = the log of number of hours worked by an employer
+               b0 = coefficient of the equation
+               x1 = the Euro to Swiss Franc exchange rate
+               b1 = coefficient of the Euro to Swiss Franc exchange rate
+               x2 = dummy variable for cross border commuter
+               b2 = coefficient of the dummy variable for cross border commuter
+               x1*x2 = dummy variable and the exchange rate
+               b3 = coefficient of x1*x2
+         
+         
+Given the co-efficients, note; the lower the standard error, the better the estimates. That being said, the equation will be;
+y = b0 + 0.93x1 + 0.8x2 + 1.12(x1*x2)
+
+
+        R_Squared
+Since R-squared explains the variability of the regression, it value ranges from 0-1, from our table, meaning our regression explained 41% of the variability of the independent variables (x)
